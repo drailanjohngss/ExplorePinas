@@ -29,7 +29,12 @@ _Operator Side_
 
 
 ## Transaction Flow
+
+Traveller Register Flow 
 https://ibb.co/ftwd4T
+
+Operator Register Flow
+https://ibb.co/kSMaJo
 
 
 
