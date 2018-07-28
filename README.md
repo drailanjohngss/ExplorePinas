@@ -29,8 +29,7 @@ _Operator Side_
 
 
 ## Transaction Flow
-
-![traveller flow](https://ibb.co/ftwd4T)
+https://ibb.co/ftwd4T
 
 
 
