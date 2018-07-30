@@ -1,0 +1,6 @@
+#! /bin/sh
+cd `dirname $0`/../
+projectPath=$(git rev-parse --show-toplevel) 
+
+# Build site directory to install other media (e.g. js, css, html)
+docker exec -it hxhronie_mkdocs /bin/ash -c "mkdocs build --clean"

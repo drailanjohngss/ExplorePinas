@@ -1,0 +1,24 @@
+#! /bin/sh
+cd `dirname $0`/../
+projectPath=$(git rev-parse --show-toplevel) 
+
+# remove mkdocs container if it exists
+containerName="hxhronie_mkdocs"
+if [[ $(docker ps -aq -f name=$containerName) ]];
+then
+	docker stop $containerName
+	docker rm $containerName
+fi
+
+# build docker image first
+docker build -t hxhroniegss/mkdocs -f ./docker/Dockerfile .
+# run the image on port 9090
+docker run -p 9090:8000 --name hxhronie_mkdocs -d -v "${projectPath}/mkdocs":/mkdocs hxhroniegss/mkdocs
+
+echo "
+	  =======================================
+	   Open http://localhost:9090 on browser
+	  =======================================
+	     Run bin/build to aid customization
+	  =======================================
+	 "

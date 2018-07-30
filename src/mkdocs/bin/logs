@@ -1,0 +1,4 @@
+#! /bin/sh
+
+# Show container logs
+docker logs --tail -f hxhronie_mkdocs
