@@ -9,7 +9,7 @@ echo '
 - - - - - - - - - - - - - - - - - - - - - - - - - -
                    DESCRIPTIONS
 - - - - - - - - - - - - - - - - - - - - - - - - - -
-1) Back          => Return to bin/gss panel
+1) Back          => Return to bin/exp panel
 2) Quit          => Close the panel
 = = = = = = = = = = = = = = = = = = = = = = = = = =  
 '
@@ -20,7 +20,7 @@ select opt in "${development[@]}"
 do
     case $opt in
         "Back")
-            bash bin/gss
+            bash bin/exp
             break
             ;;
         "Quit")

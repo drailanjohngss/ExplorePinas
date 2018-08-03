@@ -12,7 +12,7 @@ echo '
 1) Mkdocs serve  => Build and run mkdocs container
 2) Mkdocs build  => Build css, html, js files
 3) Mkdocs logs   => Show container logs
-4) Back          => Return to bin/gss panel
+4) Back          => Return to bin/exp panel
 5) Quit          => Close the panel
 = = = = = = = = = = = = = = = = = = = = = = = = = = 
 '
@@ -35,7 +35,7 @@ do
             break
             ;;
         "Back")
-            bash bin/gss
+            bash bin/exp
             break
             ;;
         "Quit")
