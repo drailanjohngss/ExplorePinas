@@ -48,5 +48,5 @@ RUN curl -sS https://getcomposer.org/installer | php \
     && composer global require hirak/prestissimo
 # Change directory to /var/www/html
 WORKDIR /var/www/html
-EXPOSE 9555
+EXPOSE 80
 

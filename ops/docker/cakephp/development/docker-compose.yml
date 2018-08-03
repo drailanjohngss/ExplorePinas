@@ -8,14 +8,14 @@ services:
 #################################################
 
  cakephp:
-   image: hxhronie/cakephp_3
+   build: .
    container_name: hxhronie_cakephp
    ports:
-     - "4000:9555"
+     - "4000:80"
    depends_on:
      - mysql
    volumes:
-     - ".:/var/www/html/"
+     - "../../../../:/var/www/html/"
    environment:
      - SECURITY_SALT=ashg4543323dd3434343434dsddet556kk
      - MYSQL_URL=mysql

@@ -36,5 +36,8 @@ https://ibb.co/ftwd4T
 Operator Register Flow
 https://ibb.co/kSMaJo
 
+## Shell Commands
+
+* To start development, run `bin/exp` on your terminal
 
 

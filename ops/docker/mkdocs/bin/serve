@@ -1,19 +1,21 @@
 #! /bin/sh
-cd `dirname $0`/../
+cd `dirname $0`/../../../../
 projectPath=$(git rev-parse --show-toplevel) 
 
 # remove mkdocs container if it exists
 containerName="hxhronie_mkdocs"
 if [[ $(docker ps -aq -f name=$containerName) ]];
 then
+	echo "Stopping mkdocs container..."
 	docker stop $containerName
+	echo "Deleting mkdocs container..."
 	docker rm $containerName
 fi
 
 # build docker image first
-docker build -t hxhroniegss/mkdocs -f ./docker/Dockerfile .
+docker build -t hxhroniegss/mkdocs -f ./ops/docker/mkdocs/development/Dockerfile .
 # run the image on port 9090
-docker run -p 9090:8000 --name hxhronie_mkdocs -d -v "${projectPath}/mkdocs":/mkdocs hxhroniegss/mkdocs
+docker run -p 9090:8000 --name hxhronie_mkdocs -d -v "${projectPath}/src/mkdocs":/mkdocs hxhroniegss/mkdocs
 
 echo "
 	  =======================================

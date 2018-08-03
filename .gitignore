@@ -1,0 +1,93 @@
+# Win
+Thumbs.db
+
+# Mac
+.DS_Store
+
+# Vim
+*.sw?
+*~
+
+# Eclipse
+.project
+.settings
+.buildpath
+
+# CakePHP
+tmp/*
+files/*
+[Cc]onfig/database.php
+src/cakephp/tmp/*
+src/cakephp/webroot/files/*
+src/cakephp/webroot/build/*
+src/cakephp/webroot/fonts/icon/*
+src/cakephp/[Cc]onfig/database.php
+src/cakephp/[Cc]onfig/facebook.php
+src/cakephp/vendor/*
+src/cakephp/logs/*
+!empty
+src/cakephp/files/*
+
+# Phing build results
+src/cakephp/bin/analyze/ci/build/
+
+# composer
+src/cakephp/Vendor/*
+src/cakephp/Plugin/*
+
+# gulp
+src/cakephp/webroot/css/*.css
+src/cakephp/webroot/fonts/webfonts/**
+src/cakephp/webroot/css/fonts/*
+src/cakephp/webroot/js/*.js
+src/cakephp/webroot/js/*.map
+src/cakephp/webroot/img/*
+src/front_src/css/*
+src/front/css/*
+src/front/_resource/fonts/*
+src/front/_resource/css/*
+src/front/fonts/icon/*
+gulp/core.*
+node_modules/
+bower_components/
+.csscomb.json
+npm-debug.log
+
+# schemaspy
+src/cakephp/webroot/schemaspy/*
+# MkDocs
+src/cakephp/webroot/docs/*
+doc/documentation/redpen.md
+doc/img/*
+# phpDocumentor
+src/cakephp/webroot/phpdoc/*
+# sonarqube
+.sonar/
+# capistrano
+ops/capistrano/bin/config_staging
+ops/capistrano/bin/config_production
+deploy/bundle/
+deploy/vendor/
+deploy/.bundle/
+deploy/Gemfile.lock
+
+# base-coding html
+src/base-coding/.build/*
+src/base-coding/_resource/fonts/icon/*
+src/base-coding/_resource/css/*
+src/base-coding/_resource/styleguide/*.md
+src/base-coding/_resource/html/_styleguide/*.html
+
+# Mkdocs
+src/mkdocs/site
+
+# Screen Collector
+doc/img/screen-collector/*
+
+# direnv
+.envrc
+
+# terraform
+**/.terraform/*
+*.tfstate.*
+*.tfvars

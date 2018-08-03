@@ -1,1 +1,5 @@
-ExplorePinas Docs
+# ExplorePinas Documentation
+
+## Brief Introduction
+
+> ### Background
