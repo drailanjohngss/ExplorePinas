@@ -2,8 +2,8 @@ site_name: ExplorePinas
 copyright: 'copyright © ExplorePinas, LTD, All rights reserved.'
 theme:
   name: 'material'
-  favicon: 'img/favicon.ico'
-  logo: 'img/gss-logo.png'
+  # favicon: 'img/favicon.ico'
+  # logo: 'img/gss-logo.png'
   palette:
     primary: indigo
     accent: indigo
@@ -18,4 +18,3 @@ pages:
     - Infrastructure:
       - Chart: infra/chart.md
       - Use Case: infra/use_case.md
-
