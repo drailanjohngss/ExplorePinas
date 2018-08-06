@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash
 
 containerNames=("hxhronie_cakephp" "phpmyadmin" "phpmyadmin_mysql")
 

@@ -11,8 +11,9 @@ fi
 
 options[0]="Mkdocs"
 options[1]="Cakephp"
-options[2]="Development"
-options[3]="Quit"
+options[2]="React"
+options[3]="Development"
+options[4]="Quit"
 
 cd `dirname $0`/../
 echo -e "${color}
@@ -27,8 +28,9 @@ echo -e "${color}
 - - - - - - - - - - - - - - - - - - - - - - - - - -
 1) Mkdocs      => Show all mkdocs commands
 2) Cakephp     => Show all cakephp commands
-3) Development => Show all development commands
-4) Quit        => Close the panel
+3) React       => Show all react commands
+4) Development => Show all development commands
+5) Quit        => Close the panel
 = = = = = = = = = = = = = = = = = = = = = = = = = =
 "
 select opt in "${options[@]}"
@@ -40,6 +42,10 @@ do
             ;;
         "Cakephp")
             bash bin/bin/cakephp
+            break
+            ;;
+        "React")
+            bash bin/bin/react
             break
             ;;
         "Development")
