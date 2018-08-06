@@ -4,7 +4,7 @@
 
 ## What is Explore Pinas ?
 
-Explore Pinas is a web service that aims to connect travellers and travel agencies. Travellers can book, see all the necessary details about the trip. Travel operators can post their travel deals implement promos etc. Explore Pinas service provides an administrator dashboard for travel operators, where they can see, all their bookings, track their clients and see various reports regarding the engagement of their deals to clients.
+Explore Pinas is a web service that aims to connect travellers and travel agencies. Travellers can book, see all the necessary details about the trip. Travel operators can post their travel deals, implement promos etc. Explore Pinas service provides an administrator dashboard for travel operators, where they can see, all their bookings, track their clients and see various reports regarding the engagement of their deals to clients.
 
 ## Target Market
 
