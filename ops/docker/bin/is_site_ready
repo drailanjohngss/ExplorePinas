@@ -1,0 +1,12 @@
+#! /bin/bash
+
+isSiteReady() {
+	if docker logs --tail -f $1 2>&1 | grep -w $2 ;
+	then
+		echo "${1} is ready"
+	else
+		echo "${1} is not yet ready..."
+		sleep 3
+		isSiteReady $1 $2
+	fi
+}

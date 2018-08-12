@@ -28,6 +28,11 @@ sudo chmod -R 777 src/cakephp/logs
 sh ops/docker/cakephp/original/bin/build_image
 docker-compose -f ops/docker/cakephp/development/docker-compose.yml up --build -d
 
+
+source ./ops/docker/bin/is_site_ready
+
+isSiteReady 'hxhronie_cakephp' 'apache2'
+
 echo -e "${color}
 	  ==========================================
 	   Open CakePHP on  http://localhost:4000

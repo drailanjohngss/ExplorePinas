@@ -9,18 +9,17 @@ then
     color='\e[1;36m'
     colorEnd='\e[0m'
 fi
-containerNames=("hxhronie_react")
 
-for containerName in ${containerNames[*]}
-do
-	if [[ $(docker ps -aq -f name=$containerName) ]];
-	then
-		echo "Stopping ${containerName} container..."
-		docker stop $containerName
-		echo "Deleting ${containerName} container..."
-		docker rm $containerName
-	fi
-done
+containerName='hxhronie_react'
+
+if [[ $(docker ps -aq -f name=$containerName) ]];
+then
+	echo "Stopping ${containerName} container..."
+	docker stop $containerName
+	echo "Deleting ${containerName} container..."
+	docker rm $containerName
+fi
+
 
 # build original image
 sh ops/docker/react/original/bin/build_image
