@@ -18,7 +18,7 @@ docker build -t hxhroniegss/mkdocs -f ./ops/docker/mkdocs/development/Dockerfile
 docker run -p 9090:8000 --name hxhronie_mkdocs -d -v "${projectPath}/src/mkdocs":/mkdocs hxhroniegss/mkdocs
 
 source ./ops/docker/bin/is_site_ready
-
+# Check if site is ready meaning it shows Serving logs
 isSiteReady $containerName 'Serving'
 
 echo "
