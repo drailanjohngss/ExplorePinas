@@ -25,3 +25,18 @@ _Operator Side_
 ## General Process
 
 <img src="/img/common_transaction_process.png">
+
+Explore Pinas caters different services to both travelers and operators.
+Basically, ExplorePinas offers tour packages from Tour operators to travelers, ExplorePinas links the payments of Travelers to the payment options provided by tour operators.
+
+The tour operators manages entirely their all transactions inside the operator dashboard serviced by ExplorePinas website. It includes tracking bookings and analytics.
+
+ExplorePinas also have a point system algorithm which will enable travelers to gain more discounts by sharing, booking, giving reviews on tours and etc.
+
+Travelers gain points by creating reviews, recommendations and even creating blogs. Gaining likes and the number of shares also will be subjected to a certain percent of points.
+
+Tour packages, and the tour operator itself will be ranked according to reviews and ratings given by travelers.
+
+## Signup Process
+
+<img src="/img/signup.png">
