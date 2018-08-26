@@ -73,3 +73,13 @@ User can earn rewards in the following scenarios:
 (More information would be added here).
 
 ## Operator Dashboard
+
+The operator dashboard main function is to help track the operators of their transactions made in ExplorePinas real time.
+
+The dashboard will gave them real time insights about the following:
+
+1.  Total number of current bookings.
+2.  Total earnings.
+3.  Ranking of their most booked Tours, and many more.
+
+(More information would be added here in the future)
