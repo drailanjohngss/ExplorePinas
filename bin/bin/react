@@ -1,0 +1,41 @@
+#! /bin/bash
+echo '
+= = = = = = = = = = = = = = = = = = = = = = = = = =
+                 React Commands
+- - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ Select from the following set of commands:
+
+- - - - - - - - - - - - - - - - - - - - - - - - - -
+                   DESCRIPTIONS
+- - - - - - - - - - - - - - - - - - - - - - - - - -
+1) Npm Start       => Build and run container
+2) Container Logs  => Show container logs
+3) Back            => Return to bin/exp panel
+4) Quit            => Close the panel
+= = = = = = = = = = = = = = = = = = = = = = = = = =
+'
+PS3='Please enter the number of your choice: '
+react=("Npm Start" "Container Logs" "Back" "Quit")
+cd `dirname $0`/../../
+select opt in "${react[@]}"
+do
+    case $opt in
+        "Npm Start")
+            bash ops/docker/react/development/bin/npm_start
+            break
+            ;;
+        "Container Logs")
+            bash ops/docker/react/development/bin/logs
+            break
+            ;;
+        "Back")
+            bash bin/exp
+            break
+            ;;
+        "Quit")
+            break
+            ;;
+        *) echo "invalid option $REPLY";;
+    esac
+done

@@ -17,6 +17,10 @@ docker build -t hxhroniegss/mkdocs -f ./ops/docker/mkdocs/development/Dockerfile
 # run the image on port 9090
 docker run -p 9090:8000 --name hxhronie_mkdocs -d -v "${projectPath}/src/mkdocs":/mkdocs hxhroniegss/mkdocs
 
+source ./ops/docker/bin/is_site_ready
+# Check if site is ready meaning it shows Serving logs
+isSiteReady $containerName 'Serving'
+
 echo "
 	  =======================================
 	   Open http://localhost:9090 on browser
