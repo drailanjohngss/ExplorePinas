@@ -14,11 +14,11 @@ Explore pinas targets to promote tourism in the Philippines for both local and f
 
 1.  <b>Travel Booking</b> - Travelers are be able to book online. They are also provided with various transaction methods depending on the travel operators' choice.
 
-2.  <b>Discounted Travel Tours and Packages </b> - ExplorePinas aims to deliver discounted prices in terms of booking costs compared to other travel booking agencies or services. ExplorePinas also aims to find the lowest deals of local tours in the Philippines.
+2.  <b>Discounted Travel Tours and Packages </b> - ExplorePinas aims to deliver the lowest prices/discounted prices of booking costs compared to other travel booking agencies or services.
 
-3.  <b>Point System Algorithm </b> - Travelers can gain points by doing tasks such as giving recommendations, sharing to social media sites, and by reviewing a tour they've been to. The points they earned from ExplorePinas could be used by exchanging it for rewards.
+3.  <b>Point System Algorithm </b> - Travelers can gain points by doing tasks such as giving recommendations, sharing to social media sites, and by reviewing a tour they've been to. The points they earned from ExplorePinas could be used be exchanged for rewards.
 
-4.  <b>Comprehensive Travel Guide </b> - Explore Pinas aims to deliver a Comprehensive travel guide for each provinces in The Philippines, by having this, traveler both local and foreign could easily begin their travel hassle free and exciting.Explore pinas would create a guide directly coming from its travel operator partners, to promote Tours.
+4.  <b>Comprehensive Travel Guide </b> - Explore Pinas aims to deliver a Comprehensive travel guide for each provinces in The Philippines, by having this, traveler both local and foreign could easily begin their travel, hassle free and exciting. ExplorePinas creates a travel guide directly coming from its travel operator partners, to promote Tours.
 
 ### _Operator Side_
 
@@ -57,7 +57,7 @@ The booking process starts when the user has chosen a tour package. The user nee
 
 The Booking process in ExplorePinas is almost the same with the basic booking process for any reservation/booking system in the market today.
 
-Traveler's can pick a tour package, then proceed to filling up the basic information needed for the booking process to commemnce.
+Traveler's can pick a tour package, then proceed to filling up the basic information needed for the booking process to commence.
 
 Of course, travelers see, the available tour dates, and as well as the vital information about the tour package before booking, more information would be added in this section.
 
@@ -65,7 +65,7 @@ Of course, travelers see, the available tour dates, and as well as the vital inf
 
 User can earn rewards in the following scenarios:
 
-1.  Successful Booking (a table matrix for the details would be specified for this item).
+1.  Successful Booking (a table matrix for the details needs to be done for this feature).
 2.  By giving a detailed review
 3.  By sharing to Social media sites such as facebook, twitter, and instagram.
 4.  Creating blogs about ExplorePinas and the tours the traveler has been to. There would be Analytics for this blog and there is also a matrix for the rating to be given that depends on the impact of the blogs. The impact of the blog would be based on the number view pages, facebook shares, likes and comments.
