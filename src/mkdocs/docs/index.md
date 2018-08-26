@@ -10,17 +10,21 @@ Explore pinas targets to promote tourism in the Philippines for both local and f
 
 ## Service Benefits
 
-_Traveler Side_
+### _Traveler Side_
 
 1.  <b>Travel Booking</b> - Travelers are be able to book online. They are also provided with various transaction methods depending on the travel operators' choice.
 
 2.  <b>Discounted Travel Tours and Packages </b> - ExplorePinas aims to deliver discounted prices in terms of booking costs compared to other travel booking agencies or services. ExplorePinas also aims to find the lowest deals of local tours in the Philippines.
 
-_Operator Side_
+3.  <b>Point System Algorithm </b> - Travelers can gain points by doing tasks such as giving recommendations, sharing to social media sites, and by reviewing a tour they've been to. The points they earned from ExplorePinas could be used by exchanging it for rewards.
 
-1.  <b>Market their Travel deals and packages </b> - Travel operators are able to post details of their travel deals and packages and implement their own marketing strategy.
+4.  <b>Comprehensive Travel Guide </b> - Explore Pinas aims to deliver a Comprehensive travel guide for each provinces in The Philippines, by having this, traveler both local and foreign could easily begin their travel hassle free and exciting.Explore pinas would create a guide directly coming from its travel operator partners, to promote Tours.
 
-2.  <b>Operator Dashboard </b> - provides quick and comprehensive reports regarding the status of deals posted by the travel operators. The dashboard offers features which display vital information such as days/dates with bookings, total earnings of selected dates, as well as client information.
+### _Operator Side_
+
+5.  <b>Market their Travel deals and packages </b> - Travel operators are able to post details of their travel deals and packages and implement their own marketing strategy.
+
+6.  <b>Operator Dashboard </b> - provides quick and comprehensive reports regarding the status of deals posted by the travel operators. The dashboard offers features which display vital information such as days/dates with bookings, total earnings of selected dates, as well as client information.
 
 ## General Process
 
@@ -40,3 +44,15 @@ Tour packages, and the tour operator itself will be ranked according to reviews 
 ## Signup Process
 
 <img src="/img/signup.png">
+
+The Sign up process is pretty straightforward for travelers, they can directly register using OAuth apis such as facebook, google and twitter, they can also register via their desired email address.
+
+The registration process on the other hand, for Operators, needs review. The operators account needs to be verified first before then can use ExplorePinas services.
+
+Operators needs to fill up the necessary data that is needed for the verification, they also need to submit their registration forms and certificates coming from the DTI and BIR. The ExplorePinas team also will call the operators for further verification of identity.
+
+## Booking Process
+
+## Reward Point System
+
+## Operator Dashboard
