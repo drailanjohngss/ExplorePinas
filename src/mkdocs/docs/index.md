@@ -53,6 +53,23 @@ Operators needs to fill up the necessary data that is needed for the verificatio
 
 ## Booking Process
 
+The booking process starts when the user has chosen a tour package. The user needs to be authenticated to perform this task.
+
+The Booking process in ExplorePinas is almost the same with the basic booking process for any reservation/booking system in the market today.
+
+Traveler's can pick a tour package, then proceed to filling up the basic information needed for the booking process to commemnce.
+
+Of course, travelers see, the available tour dates, and as well as the vital information about the tour package before booking, more information would be added in this section.
+
 ## Reward Point System
+
+User can earn rewards in the following scenarios:
+
+1.  Successful Booking (a table matrix for the details would be specified for this item).
+2.  By giving a detailed review
+3.  By sharing to Social media sites such as facebook, twitter, and instagram.
+4.  Creating blogs about ExplorePinas and the tours the traveler has been to. There would be Analytics for this blog and there is also a matrix for the rating to be given that depends on the impact of the blogs. The impact of the blog would be based on the number view pages, facebook shares, likes and comments.
+
+(More information would be added here).
 
 ## Operator Dashboard
