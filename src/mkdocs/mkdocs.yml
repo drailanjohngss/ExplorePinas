@@ -14,3 +14,5 @@ pages:
     - Infrastructure:
       - Chart: infra/chart.md
       - Use Case: infra/use_case.md
+    - Mock-ups:
+      - Homepage: mockups/homepage.md
