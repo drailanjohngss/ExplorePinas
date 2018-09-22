@@ -6,7 +6,7 @@ theme:
     primary: indigo
     accent: indigo
 pages:
-    - Overview: /
+    - Overview: index.md
     - About: about.md
     - Coding Conventions:
       - Front End: coding_conventions/front_end_convention.md
@@ -15,5 +15,5 @@ pages:
       - Chart: infra/chart.md
       - Use Case: infra/use_case.md
     - Mock-ups:
-      - Home Page: /mockups/homepage.md
-      - Search Page: /mockups/searchpage.md
+      - Home Page: mockups/homepage.md
+      - Search Page: mockups/searchpage.md
