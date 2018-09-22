@@ -1,1 +1,1 @@
-<img src="/img/searchpage.png">
+<img src="../../img/searchpage.png">
