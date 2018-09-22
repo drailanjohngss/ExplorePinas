@@ -1,0 +1,38 @@
+(Not official)
+
+Search Page
+    (Sidebar)
+    Categories
+    Budget
+    Duration
+    Date Range
+
+    (Sort)
+    Popularity
+    Ratings
+    Price low to high
+
+
+Tour Page
+    Pictures
+    Tour name
+    Duration
+    Location
+    Brief Description
+    Reviews
+    How many already booked
+    How many are interested
+    Package Options
+        - Available Booking Date
+        - List of Available Pick up and drop off points
+        - Package Details
+            - Highlight
+            - What can you Expect
+            - Departure Information for each available pick up and drop off points
+            - Additional Information
+    Iterinary
+    Price Detail
+    Voucher Type
+    Important Booking Information
+    Cancellation Policy
+    Map
