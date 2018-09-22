@@ -15,5 +15,5 @@ pages:
       - Chart: infra/chart.md
       - Use Case: infra/use_case.md
     - Mock-ups:
-      - Home Page: /mockups/homepage.md
-      - Search Page: /mockups/searchpage.md
+      - Home Page: mockups/homepage.md
+      - Search Page: mockups/searchpage.md
